@@ -1,13 +1,15 @@
 {
     "user": {
-        "1afc5522-2568-4764-8e54-d7c4d3b8639a": {
-            "id": "1afc5522-2568-4764-8e54-d7c4d3b8639a",
-            "secret": {
-                "ascii": "z88o>qM<hk,!:kxPfTx8#(syvXxmR{#E",
-                "hex": "7a38386f3e714d3c686b2c213a6b785066547838232873797658786d527b2345",
-                "base32": "PI4DQ3Z6OFGTY2DLFQQTU23YKBTFI6BYEMUHG6LWLB4G2UT3ENCQ",
-                "otpauth_url": "otpauth://totp/SecretKey?secret=PI4DQ3Z6OFGTY2DLFQQTU23YKBTFI6BYEMUHG6LWLB4G2UT3ENCQ"
-            }
+        "44707e6c-0abc-4fa7-892d-0975dcb61d9d": {
+            "id": "44707e6c-0abc-4fa7-892d-0975dcb61d9d",
+            "temp_secret": {
+                "ascii": "(L(pgaRfWNfyG?mehE7zNqbKarcTlfTk",
+                "hex": "284c287067615266574e6679473f6d656845377a4e71624b617263546c66546b",
+                "base32": "FBGCQ4DHMFJGMV2OMZ4UOP3NMVUEKN32JZYWES3BOJRVI3DGKRVQ",
+                "otpauth_url": "otpauth://totp/SecretKey?secret=FBGCQ4DHMFJGMV2OMZ4UOP3NMVUEKN32JZYWES3BOJRVI3DGKRVQ"
+            },
+            "username": "abc",
+            "password": "test_password"
         }
     }
 }

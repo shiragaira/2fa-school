@@ -19,8 +19,8 @@ app.get('/api', (req, res) => {
 
 app.post('/api/register', (req, res) => {
     const id = uuid.v4()
-    const username = "test_username";
-    const password = "test_password";
+    const username = req.body.username;
+    const password = req.body.password;
 
     try {
         const path = `/user/${id}`

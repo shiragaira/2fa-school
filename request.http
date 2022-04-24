@@ -1,0 +1,32 @@
+GET http://localhost:5000/api
+
+###
+
+POST http://localhost:5000/api/register
+
+{
+    "username": "test_user",
+    "password": "test_password",
+}
+
+###
+POST http://localhost:5000/api/verify
+content-type: application/json
+
+{
+    "username": "test_user",
+    "password": "test_password",
+    "userId": "1afc5522-2568-4764-8e54-d7c4d3b8639a",
+    "token": "170693"
+}
+
+###
+POST http://localhost:5000/api/validate
+content-type: application/json
+
+{
+    "username": "test_user",
+    "password": "test_password",
+    "userId": "1afc5522-2568-4764-8e54-d7c4d3b8639a",
+    "token": "609048"
+}
